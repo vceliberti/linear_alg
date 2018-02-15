@@ -36,7 +36,7 @@ N = sweep(M,1,c(1,0,0,0,0),"+")   # create new matrix with added row
 B = sweep(N,2,c(2,0,0,0,0),"+")   # combined added row with added col
 B                                 # printed matrix with row and col
 
-B[1,1] <- 3
+B[1,1] <- 3                       # needed to change the first number back to 3
 B
 
 
